@@ -1,0 +1,94 @@
+aside {
+  width: 1597px;
+  height: 208px;
+  border: 1px solid red;
+  font-family: Canva Sans, sans-serif;
+  background-color: #0DB4CF;
+
+
+}
+
+
+.img-aside {
+  width: 88px;
+  height: 201px;
+  border-radius: 2px;
+}
+
+.create {
+  width: 90px;
+  height: 14px;
+
+}
+
+.image-woman {
+  width: 204px;
+  height: 201px;
+}
+
+.fundo-aside {
+  display: flex;
+  justify-content: space-between;
+  width: 1597px;
+  height: 208px;
+  /* align-items: center; */
+
+}
+
+.button-aside {
+  width: 50px;
+  height: 50px;
+
+}
+
+.alinha-header-aside {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 58vw;
+  /* border: 1px solid orangered; */
+}
+
+.alinha-aside {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black
+}
+
+.aside-header {
+  display: flex;
+  width: 100%;
+  /* height: 25%; */
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+.alinha-topo {
+  height: 100%;
+}
+
+.tamanho-aside {
+  height: 182px;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.alinha-button {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.button-aside {
+  
+  width: 120px;
+  height: 40px;
+}
+
+.button1{
+  margin-bottom: 5px;
+}

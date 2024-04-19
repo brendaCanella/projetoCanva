@@ -5,7 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projeto Canva</title>
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="stylesheet" href="assets/styles/menu.css">
+  <link rel="stylesheet" href="assets/styles/side-bar.css">
+  <link rel="stylesheet" href="assets/styles/banner.css">
+  <link rel="stylesheet" href="assets/styles/article.css">
+  <link rel="stylesheet" href="assets/styles/aside.css">
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -21,14 +35,15 @@
 
       <div class="colunas">
         <ul>
-          <li><a href="#"><img src="imagens/colunas.svg" alt="colunas"></a></li>
+          <li><a href="#"><img src="assets/img/icons/colunas.svg" alt="colunas"></a></li>
         </ul>
       </div>
 
 
       <div>
-        <ul>
-          <li><a href="#"><img class="logomarca"
+        <ul class="action-buttons">
+          <li>
+            <a href="#"><img class="logomarca"
                 src="https://static.canva.com/web/images/12487a1e0770d29351bd4ce4f87ec8fe.svg" alt="logo canva"></a>
           </li>
         </ul>
@@ -40,9 +55,9 @@
 
     <div class="esquerda">
       <div class="configs">
-        <ul>
-          <li class="config"><a href="#"><img src="imagens/config.svg" alt="icone de comfigurações"></a></li>
-          <li class="config"><a href="#"><img src="imagens/sino.svg" alt="sino"></a></li>
+        <ul class="action-buttons">
+          <li class="config"><a href="#"><img src="assets/img/icons/config.svg" alt="icone de comfigurações"></a></li>
+          <li class="config"><a href="#"><img src="assets/img/icons/sino.svg" alt="sino"></a></li>
         </ul>
       </div>
 
@@ -50,9 +65,9 @@
         <ul>
           <li class="coroa">
             <!-- <a href="#"> -->
-            <img src="imagens/coroa.svg" alt="botão para canva pro">
+            <img src="assets/img/icons/coroa.svg" alt="botão para canva pro">
 
-            <p>
+            <p class="canva-pro">
               Vire Canva Pro <br /> grátis por 30 dias
             </p>
 
@@ -63,8 +78,8 @@
 
 
       <div class="usuario">
-        <ul>
-          <li><a href="#"><img src="imagens/usuario1.svg/usuario.png" alt="icone usuário"></a></li>
+        <ul class="action-buttons">
+          <li><a href="#"><img src="assets/img/icons/usuario.png" alt="icone usuário"></a></li>
         </ul>
       </div>
 
@@ -72,61 +87,407 @@
 
   </header>
 
+  <!-- estilização da segunda parte -->
 
-  <div id="mother">
 
-    <div id="div1">
-      <img class="icon-G" src="imagens/usuario1.svg/usuario.png" alt="icone usuario">
-      <h1>Pessoal</h1>
-      <h2>Grátis <span>•</span></h2>
-      <img src="imagens/usuario1.svg/icone.svg" alt="icone">
-      <h3>1</h3>
-      <button>
-        <img class="mais" src="imagens/usuario1.svg/mais.svg" alt="icone mais">
-        Criar um design
-      </button>
+  <div id="alinhar">
+
+    <div id="mother">
+
+      <div class="estiliza-nav">
+
+        <div class="estiliza-nav1">
+
+          <div id="div1">
+            <div>
+              <img class="icon-G" src="assets/img/icons/usuario.png" alt="icone usuario">
+            </div>
+            <div>
+              <h1>Pessoal</h1>
+              <div class="div2">
+                <h2>Grátis <span>•</span></h2>
+                <img src="assets/img/icons/icone.svg" alt="icone">
+                <h3>1</h3>
+              </div>
+            </div>
+          </div>
+
+          <button class="mother">
+            <img class="mais" src="assets/img/icons/mais.svg" alt="icone mais">
+            Criar um design
+          </button>
+        </div>
+
+        <div class="estiliza-nav2">
+          <nav>
+            <div class="nav-baixo">
+              <ul>
+                <li id="list-home">
+                  <div>
+                    <img src="assets/img/icons/casa.svg" alt="icone de casa">
+                    <h3>Inicio</h3>
+                  </div>
+                </li>
+                <li id="list-shine">
+
+                  <div>
+                    <img src="assets/img/icons/brilho.svg" alt="icone de brilho">
+                    <h3 class="colorido">Estúdio Mágico </h3>
+                    <h4> Novo</h4>
+                  </div>
+                </li>
+                <li id="list-past">
+                  <div>
+                    <img src="assets/img/icons/pasta.svg" alt="icone de pastas">
+                    <h3>Projetos</h3>
+                  </div>
+                </li>
+                <li id="list-model">
+                  <div>
+                    <img src="assets/img/icons/modelo.svg" alt="icone de modelos">
+                    <h3>Modelos</h3>
+                  </div>
+                  <img class="seta" src="assets/img/icons/seta.svg" alt="icone de seta">
+                </li>
+                <li id="list-mark">
+                  <div>
+                    <img src="assets/img/icons/marca.svg" alt="icone de marcas">
+                    <h3>Marca</h3>
+                    <span>
+                      <img class="crown" src="assets/img/icons/crown.svg" alt="icone coroa">
+                    </span>
+                  </div>
+
+                  <img class="seta" src="assets/img/icons/seta.svg" alt="icone de seta">
+                </li>
+                <li id="list-apps">
+                  <div>
+                    <img src="assets/img/icons/apps.svg" alt="icone de aplicativos">
+                    <h3>Apps</h3>
+                  </div>
+                  <img class="seta" src="assets/img/icons/seta.svg" alt="icone de seta">
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="nav-cima">
+              <div class="lixeira">
+                <div class="arruma-lixo">
+                  <img src="assets/img/icons/lixo.svg" alt="icone de lixeira">
+                  <h2 class="lixo">Lixeira</h2>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+
+
+      </div>
     </div>
 
-    <nav>
-      <ul>
-        <li id="list-home">
-          <img src="imagens/casa.svg" alt="icone de casa">
-          <h3>Inicio</h3>
-        </li>
-        <li id="list-shine">
-          <img src="imagens/brilho.svg" alt="icone de brilho">
-          <h3>Estúdio Mágico <span> novo</span></h3>
-        </li>
-        <li id="list-past">
-          <img src="imagens/pasta.svg" alt="icone de pastas">
-          <h3>Projetos</h3>
-        </li>
-        <li id="list-model">
-          <img src="imagens/usuario1.svg/modelo.svg" alt="icone de modelos">
-          <h3>Modelos</h3>
-          <img src="imagens/usuario1.svg/seta.svg" alt="icone de seta">
-        </li>
-        <li id="list-mark">
-          <img src="imagens/marca.svg" alt="icone de marcas">
-          <h3>Marca</h3>
-          <span>
-            <img class="crown" src="imagens/crown.svg" alt="icone coroa">
-          </span>
-          <img src="imagens/usuario1.svg/seta.svg" alt="icone de seta">
-        </li>
-        <li id="apps">
-          <img src="imagens/apps.svg" alt="icone de aplicativos">
-          <h3>Apps</h3>
-          <img src="imagens/usuario1.svg/seta.svg" alt="icone de seta">
-        </li>
 
-      </ul>
-    </nav>
+    <!-- estilização da terceira parte -->
+    <div class="alinha-article">
+
+      <section>
+
+        <div id="alinhar-section">
+          <div class="section">
+
+
+            <div>
+              <h1>O que você vai criar hoje?</h1>
+            </div>
+          </div>
+          <div class="section-direita">
+            <span class="span-section1">
+              <img src="assets/img/icons/tamanho.svg" alt="icone de tamanhos">
+            </span>
+            <span class="span-section2">
+              <img src="assets/img/icons/nuvem.svg" alt="icone de nuvem">
+            </span>
+          </div>
+        </div>
+        <div id="alinhar-pesquisa-ul">
+
+          <div class="pesquisa">
+            <div class="alinhar-pesquisa">
+              <button class="search"><img src="assets/img/icons/lupa.svg" alt="Lupa"></button>
+              <!-- outra opção seria: <label for="aqui-input" style="color: white;">Button</label> -->
+              <input id="first-input" type="text" placeholder="Busque conteúdo seu ou do Canva">
+            </div>
+          </div>
+
+
+
+
+
+          <div class="alinhar-ul">
+            <ul class="tab-icons" id="minha-ul ">
+              <li>
+                <div class="icon-content">
+                  <div class="brilho shine">
+                    <img src="assets/img/icons/brilho-banner.svg" alt="icone de brilho">
+                  </div>
+                  <p>Para você</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="icon-content">
+                  <div class="brilho docs none">
+                    <img class="docs default" src="assets/img/icons/docs.svg" alt="icone de documentos">
+                    <img class="docs alternative" src="assets/img/icons/docs-alternative.svg" alt="icone de documentos">
+                  </div>
+                  <p>Docs</p>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="icon-content">
+                  <div class="brilho quadros none">
+                    <img class="default" src="assets/img/icons/quadros.svg" alt="icone de quadro">
+                    <img class="alternative" src="assets/img/icons/quadros-alternative.svg" alt="icone de quadro">
+
+                  </div>
+                  <p>Quadros</p>
+              </li>
+
+              <li>
+                <div class="icon-content">
+                  <div class="brilho apresenta none">
+                    <img class="default" src="assets/img/icons/apresenta.svg" alt="icone de apresentação">
+                    <img class="alternative" src="assets/img/icons/apresenta-alternative.svg"
+                      alt="icone de apresentação">
+                  </div>
+                  <p>Apresentações</p>
+              </li>
+
+
+              <li>
+                <div class="icon-content">
+                  <div class="brilho rede-social none">
+                    <img class="default" src="assets/img/icons/rede-social.svg" alt="icone de reede social">
+                    <img class="alternative" src="assets/img/icons/rede-social-alternative.svg"
+                      alt="icone de reede social">
+
+                  </div>
+                  <p>Redes Sociais</p>
+
+              </li>
+
+              <li>
+                <div class="icon-content">
+                  <div class="brilho video none">
+                    <img class="default" src="assets/img/icons/video.svg" alt="icone de video">
+                    <img class="alternative" src="assets/img/icons/video-alternative.svg" alt="icone de video">
+
+                  </div>
+                  <p>Vídeos</p>
+              </li>
+
+
+              <li>
+                <div class="icon-content">
+                  <div class="brilho impressao none">
+                    <img class="default" src="assets/img/icons/impressao.svg" alt="icone de impressão">
+                    <img class="alternative" src="assets/img/icons/impressao-alternative.svg" alt="icone de video">
+
+                  </div>
+                  <p>Impressão</p>
+              </li>
+
+              <li>
+                <div class="icon-content">
+                  <div class="brilho sites none">
+                    <img class="default" src="assets/img/icons/sites.svg" alt="icone de sites">
+                    <img class="alternative" src="assets/img/icons/sites-alternative.svg" alt="icone de sites">
+
+                  </div>
+                  <p>Sites</p>
+              </li>
+              <li>
+                <div class="icon-content">
+                  <div class="brilho maismais none">
+                    <img class="default" src="assets/img/icons/maismais.svg" alt="icone de mais">
+                    <img class="alternative" src="assets/img/icons/maismais-alternative.svg" alt="icone de mais">
+
+                  </div>
+                  <p>Mais</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+      <article>
+        <div>
+          <p class="texto1">Você pode experimentar...</p>
+        </div>
+        <div id="list">
+
+          <div class="article-container">
+            <div class="image-container">
+              <img class="main-article-image" src="assets/img/icons/insta.jpeg" alt="imagem do instagram">
+              <div class="text-background">
+                <p class="text-overlay">Criar design em branco</p>
+              </div>
+              <span class="lupa-article">
+                <img src="assets/img/icons/lupa-article.svg" alt="">
+              </span>
+            </div>
+            <p class="texto2">Post para Instagram (Quadrado)</p>
+            <span class="detalhe-aticle">1080 px × 1080 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+          </div>
+          <div class="article-container">
+            <div class="image-container">
+              <img class="main-article-image" src="assets/img/icons/story.jpeg" alt="story do instagram">
+              <div class="text-background">
+                <p class="text-overlay">Criar design em branco</p>
+              </div>
+              <span class="lupa-article">
+                <img src="assets/img/icons/lupa-article.svg" alt="">
+              </span>
+            </div>
+            <p class="texto2">Story</p>
+            <span class="detalhe-aticle">1080 px × 1920 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+          </div>
+          <div class="article-container">
+            <div class="image-container">
+              <img class="main-article-image" src="assets/img/icons/logo.jpeg" alt="imagem de logomarca">
+              <div class="text-background">
+                <p class="text-overlay">Criar design em branco</p>
+              </div>
+              <span class="lupa-article">
+                <img src="assets/img/icons/lupa-article.svg" alt="">
+              </span>
+            </div>
+            <p class="texto2">Logo</p>
+            <span class="detalhe-aticle">500 px × 500 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+          </div>
+          <div class="article-container">
+            <div class="image-container">
+              <img class="main-article-image" src="assets/img/icons/apresentasao.jpeg" alt="imagem de apresentações">
+              <div class="text-background">
+                <p class="text-overlay">Criar design em branco</p>
+              </div>
+              <span class="lupa-article">
+                <img src="assets/img/icons/lupa-article.svg" alt="">
+              </span>
+            </div>
+            <p class="texto2">Apresentação(16:9)</p>
+            <span class="detalhe-aticle">1920 px × 1080 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+
+          </div>
+          <div class="article-container">
+            <div class="image-container">
+              <img class="main-article-image" src="assets/img/icons/doc.jpeg" alt="imagem de documentos">
+              <div class="text-background">
+                <p class="text-overlay">Comece a escrever</p>
+              </div>
+              <span class="lupa-article">
+                <img src="assets/img/icons/lupa-article.svg" alt="">
+              </span>
+            </div>
+            <p class="texto2">Doc</p>
+            <span class="detalhe-aticle">Tamanho automático<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+
+          </div>
+          <div class="article-container">
+            <div class="image-container">
+              <img class="main-article-image" src="assets/img/icons/curriculo.jpeg" alt="imagem de curriculo">
+              <div class="text-background">
+                <p class="text-overlay">Criar design em branco</p>
+              </div>
+              <span class="lupa-article">
+                <img src="assets/img/icons/lupa-article.svg" alt="">
+              </span>
+            </div>
+            <p class="texto2">Curriculo</p>
+            <span class="detalhe-aticle">21cm x 29,7 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+
+          </div>
+          <div class="article-container">
+            <div class="image-container">
+              <img class="main-article-image" src="assets/img/icons/teste.gif" alt="gif de animação"></img>
+              <div class="text-background">
+                <p class="text-overlay">Criar design em branco</p>
+              </div>
+              <span class="lupa-article">
+                <img src="assets/img/icons/lupa-article.svg" alt="">
+              </span>
+            </div>
+            <p class="texto2">Vídeo</p>
+            <span class="detalhe-aticle">1920 px x 1080px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+          </div>
+        </div>
+
+      </article>
+
+
+      <aside>
+        <div class="fundo-aside">
+          <div>
+            <img class="img-aside" src="assets/img/icons/line.webp" alt="">
+            <img class="img-aside" src="assets/img/icons/persons.webp" alt="">
+          </div>
+          <!-- <img src="assets/img/icons/blue-bottom.jpeg" alt=""> -->
+          <div class="alinha-topo">
+            <div class="alinha-aside">
+              <div class="alinha-header-aside">
+                <div class="aside-header">
+                  <h3>PRESENCIAL OU ONLINE</h3>
+                  <img class="create" src="assets/img/icons/canva-create.svg" alt="">
+                  <h3>23 DE MAIO DE 2024</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="centro-aside">
+              <div class="tamanho-aside">
+                <h1 class="h1">Faça parte do nosso <br> maior evento de <br> todos os tempos</h1>
+                <div class="alinha-button">
+                  <button class="button-aside button1">Saiba Mais</button>
+                  <button class="button-aside button2">Inscreva-se agora</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <img class="image-woman" src="assets/img/icons/woman.webp" alt="">
+        </div>
+      </aside>
+
+
+      <div>
+        <p>Designs recentes</p>
+        <span>
+          <img src="" alt="">
+        </span>
+      </div>
+
+      <div>
+        <img src="assets/img/icons/imagem-final.webp" alt="">
+        <p>Os designs que você criar ou abrir serão exibidos aqui.</p>
+      </div>
+
+      <div>
+        <img src="assets/img/icons/tres-pontos.svg" alt="qualquer coisa">
+      </div>
+
+    </div>
+
+
+
+
 
   </div>
-
-
-
 
 
 </body>

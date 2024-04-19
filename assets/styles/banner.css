@@ -1,0 +1,248 @@
+#alinhar {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  border: 1px solid red;
+}
+
+section {
+  /* background: linear-gradient(to bottom right, #03BECE, #4E46F3, #7633E5); */
+
+  background: linear-gradient(to bottom right, #00c4cc,#4E46F3, #8b3dff);
+  height: 28rem;
+  width: 105%;
+  margin-top: 2rem;
+  border-radius: 5px;
+
+}
+
+/* procurar */
+
+.pesquisa {
+
+
+  display: flex;
+  padding: 5px;
+  /* border: var(--global-border);
+  border-radius: var(--border-radius); */
+}
+
+#first-input {
+  background-color: white;
+  color: gray;
+  border: none;
+  padding: 0 5px;
+}
+
+
+.search {
+  border-radius: 4px 0px 0px 4px;
+  border: none;
+  cursor: pointer;
+  padding: 3px;
+  background-color: white
+}
+
+.search img {
+  width: 2.4rem;
+  height: 100%;
+}
+
+
+/* primeira div da section */
+
+
+
+
+#alinhar-section {
+
+  font-size: 32px;
+  font-family: Canva Sans;
+  color: #e1e4e7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+
+}
+
+section h1 {
+  display: flex;
+  align-items: center;
+  margin-left: 50rem;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section-direita {
+  width: 100px;
+  height: 45px;
+  margin-right: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+
+#alinhar-pesquisa-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.alinhar-pesquisa {
+  border-radius: 5px;
+  display: flex;
+}
+
+#first-input {
+  border-radius: 0px 4px 4px 0px;
+  width: 35vw;
+  height: 5rem;
+  border: none;
+}
+
+#first-input:focus {
+  outline: none;
+}
+
+.brilho {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 150%;
+  width: 60px;
+  height: 60px;
+}
+
+
+
+#minha-ul {
+  gap: 62px;
+
+}
+
+
+.tab-icons {
+  list-style: none;
+  display: flex;
+  gap: 6rem;
+  justify-content: space-between;
+  font-family: Canva Sans;
+  font-size: 12px;
+
+
+}
+
+.icon-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.6rem;
+}
+
+
+.icon-content p{
+  color: white;
+  font-weight: 500;
+}
+
+.span-section1 {
+  background-color: rgba(202, 202, 202, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.span-section1:hover{
+
+}
+
+.span-section2 {
+  background-color: rgba(202, 202, 202, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.span-section2:hover{
+
+}
+
+
+/* estilização dos botões coloridos */
+
+
+.shine:hover {
+  transform: scale(1.1);
+  /* transform: 0.3s ease-in-out; */
+}
+
+.none .alternative,
+.none:hover .default {
+  display: none;
+}
+
+.none:hover .alternative,
+.none .default {
+  display: block;
+}
+
+.docs:hover {
+  background-color: #0FB8CE;
+  cursor: pointer;
+
+}
+
+.quadros:hover {
+  background-color: #21A663;
+  cursor: pointer;
+
+}
+
+.apresenta:hover {
+  background-color: #FF9900;
+  cursor: pointer;
+}
+
+.rede-social:hover {
+  background-color: #FF5154;
+  cursor: pointer;
+}
+
+.video:hover {
+  background-color: #D269E6;
+  cursor: pointer;
+}
+
+.impressao:hover {
+  background-color: #A548FF;
+  cursor: pointer;
+}
+
+.sites:hover {
+  background-color: #575EFD;
+  cursor: pointer;
+}
+
+.maismais:hover {
+  background-color: #5D44D4;
+  cursor: pointer;
+}
+
+
+/* estilizações finais do section */
+
+::placeholder {
+  font-size: 15px
+}

@@ -1,0 +1,150 @@
+#list img {
+  width: 19.2rem;
+  height: 14.4rem;
+}
+
+#list {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.alinha-article {
+  width: 100%;
+  gap: 25px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+article p {
+  font-weight: bold;
+}
+.texto1 {
+  font-size: 18px;
+  padding-bottom: 10px
+}
+
+.detalhe-aticle {
+  font-family: Canva Sans, sans-serif;
+}
+
+
+/* abaixo vemos o que está acontecendo referente aos textos principais escritos abaixo da imagem. 
+incluindo a quebra do texto e a adição das ... quando o texto quebra
+ */
+
+.texto2 {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  white-space: nowrap;
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 192px;
+}
+
+video{
+  width: 192px;
+  height: 144px;
+}
+
+
+.article-container {
+  display: grid;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+
+/* abaixo a mensagem referente ao texto que aparecem apenas quando está hover */
+.detalhe-aticle {
+  display: flex;
+  gap: 5px;
+  font-weight: 300;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.detalhe-aticle img {
+  max-width: 14px;
+  max-height: 14px;
+}
+
+.article-container .image-container {
+  position: relative;
+  border-radius: inherit;
+  overflow: hidden;
+}
+
+.main-article-image {
+  border-radius: inherit;
+}
+
+.text-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+
+  border-radius: inherit;
+
+  display: grid;
+  place-content: center;
+
+  transition: opacity 0.2s, background-color 0.2s, backdrop-filter 0.2s;
+}
+
+.text-overlay {
+  color: white;
+  font-size: 14px;
+
+  text-align: center;
+  margin: auto;
+}
+
+.lupa-article {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  background-color: white;
+  border-radius: 4px;
+  opacity: 0;
+
+  display: grid;
+  place-content: center;
+
+  transform: translateY(-150%);
+                                       
+  width: 28px;
+  height: 28px;
+
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.lupa-article img {
+  max-width: 25px;
+  height: 25px;
+}
+
+.article-container:hover .image-container .text-background {
+  background-color: rgba(0, 0, 0, 0.514);
+  backdrop-filter: blur(4px);
+  opacity: 1;
+}
+
+.article-container:hover .image-container .lupa-article {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.article-container:hover .detalhe-aticle {
+  opacity: 1;
+}
