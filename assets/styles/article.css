@@ -10,12 +10,14 @@
   /* justify-content: center; */
   align-items: flex-start;
   gap: 3rem;
+  overflow: hidden;
 }
 
 .alinha-article {
   width: 100%;
   gap: 25px;
-  width: 80%;
+  width: 100%;
+  padding: 15px 25px;
   display: flex;
   flex-direction: column;
 }
@@ -23,6 +25,7 @@
 article p {
   font-weight: bold;
 }
+
 .texto1 {
   font-size: 18px;
   padding-bottom: 10px
@@ -47,7 +50,7 @@ incluindo a quebra do texto e a adição das ... quando o texto quebra
   max-width: 192px;
 }
 
-video{
+video {
   width: 192px;
   height: 144px;
 }
@@ -57,6 +60,7 @@ video{
   display: grid;
   gap: 10px;
   border-radius: 8px;
+  min-width: 19.2rem;
 }
 
 
@@ -122,7 +126,7 @@ video{
   place-content: center;
 
   transform: translateY(-150%);
-                                       
+
   width: 28px;
   height: 28px;
 
@@ -148,3 +152,11 @@ video{
 .article-container:hover .detalhe-aticle {
   opacity: 1;
 }
+
+
+
+
+
+
+
+@media(max-width:923px) {}

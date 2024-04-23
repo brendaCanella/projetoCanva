@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="assets/styles/banner.css">
   <link rel="stylesheet" href="assets/styles/article.css">
   <link rel="stylesheet" href="assets/styles/aside.css">
+  <link rel="stylesheet" href="assets/styles/footer.css">
+
 
 
 
@@ -30,61 +32,62 @@
 <body>
 
   <header>
+    <div class="fixed-header">
 
-    <div class="direita">
+      <div class="direita">
 
-      <div class="colunas">
-        <ul>
-          <li><a href="#"><img src="assets/img/icons/colunas.svg" alt="colunas"></a></li>
-        </ul>
+        <div class="colunas">
+          <ul class="action-buttons">
+            <li><a href="#"><img class="style-coluna" src="assets/img/icons/colunas.svg" alt="colunas"></a></li>
+          </ul>
+        </div>
+
+
+        <div>
+          <ul class="action-buttons">
+            <li>
+              <a href="#"><img class="logomarca"
+                  src="https://static.canva.com/web/images/12487a1e0770d29351bd4ce4f87ec8fe.svg" alt="logo canva"></a>
+            </li>
+          </ul>
+        </div>
+
       </div>
 
 
-      <div>
-        <ul class="action-buttons">
-          <li>
-            <a href="#"><img class="logomarca"
-                src="https://static.canva.com/web/images/12487a1e0770d29351bd4ce4f87ec8fe.svg" alt="logo canva"></a>
-          </li>
-        </ul>
-      </div>
 
+      <div class="esquerda">
+        <div class="configs">
+          <ul class="action-buttons">
+            <li class="config"><a href="#"><img src="assets/img/icons/config.svg" alt="icone de comfigurações"></a></li>
+            <li class="config"><a href="#"><img src="assets/img/icons/sino.svg" alt="sino"></a></li>
+          </ul>
+        </div>
+
+        <button id="botao-coroa">
+          <ul>
+            <li class="coroa">
+              <!-- <a href="#"> -->
+              <img src="assets/img/icons/coroa.svg" alt="botão para canva pro">
+
+              <p class="canva-pro">
+                Vire Canva Pro <br /> grátis por 30 dias
+              </p>
+
+              </a>
+            </li>
+          </ul>
+        </button>
+
+
+        <div class="usuario">
+          <ul class="action-buttons">
+            <li><a href="#"><img class="estiliza-user" src="assets/img/icons/usuario.png" alt="icone usuário"></a></li>
+          </ul>
+        </div>
+
+      </div>
     </div>
-
-
-
-    <div class="esquerda">
-      <div class="configs">
-        <ul class="action-buttons">
-          <li class="config"><a href="#"><img src="assets/img/icons/config.svg" alt="icone de comfigurações"></a></li>
-          <li class="config"><a href="#"><img src="assets/img/icons/sino.svg" alt="sino"></a></li>
-        </ul>
-      </div>
-
-      <button id="botao-coroa">
-        <ul>
-          <li class="coroa">
-            <!-- <a href="#"> -->
-            <img src="assets/img/icons/coroa.svg" alt="botão para canva pro">
-
-            <p class="canva-pro">
-              Vire Canva Pro <br /> grátis por 30 dias
-            </p>
-
-            </a>
-          </li>
-        </ul>
-      </button>
-
-
-      <div class="usuario">
-        <ul class="action-buttons">
-          <li><a href="#"><img src="assets/img/icons/usuario.png" alt="icone usuário"></a></li>
-        </ul>
-      </div>
-
-    </div>
-
   </header>
 
   <!-- estilização da segunda parte -->
@@ -197,7 +200,7 @@
           <div class="section">
 
 
-            <div>
+            <div class="alinhar-h1">
               <h1>O que você vai criar hoje?</h1>
             </div>
           </div>
@@ -211,7 +214,6 @@
           </div>
         </div>
         <div id="alinhar-pesquisa-ul">
-
           <div class="pesquisa">
             <div class="alinhar-pesquisa">
               <button class="search"><img src="assets/img/icons/lupa.svg" alt="Lupa"></button>
@@ -325,169 +327,180 @@
 
         </div>
       </section>
-      <article>
-        <div>
-          <p class="texto1">Você pode experimentar...</p>
-        </div>
-        <div id="list">
 
-          <div class="article-container">
-            <div class="image-container">
-              <img class="main-article-image" src="assets/img/icons/insta.jpeg" alt="imagem do instagram">
-              <div class="text-background">
-                <p class="text-overlay">Criar design em branco</p>
-              </div>
-              <span class="lupa-article">
-                <img src="assets/img/icons/lupa-article.svg" alt="">
-              </span>
-            </div>
-            <p class="texto2">Post para Instagram (Quadrado)</p>
-            <span class="detalhe-aticle">1080 px × 1080 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
-          </div>
-          <div class="article-container">
-            <div class="image-container">
-              <img class="main-article-image" src="assets/img/icons/story.jpeg" alt="story do instagram">
-              <div class="text-background">
-                <p class="text-overlay">Criar design em branco</p>
-              </div>
-              <span class="lupa-article">
-                <img src="assets/img/icons/lupa-article.svg" alt="">
-              </span>
-            </div>
-            <p class="texto2">Story</p>
-            <span class="detalhe-aticle">1080 px × 1920 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
-          </div>
-          <div class="article-container">
-            <div class="image-container">
-              <img class="main-article-image" src="assets/img/icons/logo.jpeg" alt="imagem de logomarca">
-              <div class="text-background">
-                <p class="text-overlay">Criar design em branco</p>
-              </div>
-              <span class="lupa-article">
-                <img src="assets/img/icons/lupa-article.svg" alt="">
-              </span>
-            </div>
-            <p class="texto2">Logo</p>
-            <span class="detalhe-aticle">500 px × 500 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
-          </div>
-          <div class="article-container">
-            <div class="image-container">
-              <img class="main-article-image" src="assets/img/icons/apresentasao.jpeg" alt="imagem de apresentações">
-              <div class="text-background">
-                <p class="text-overlay">Criar design em branco</p>
-              </div>
-              <span class="lupa-article">
-                <img src="assets/img/icons/lupa-article.svg" alt="">
-              </span>
-            </div>
-            <p class="texto2">Apresentação(16:9)</p>
-            <span class="detalhe-aticle">1920 px × 1080 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
-
-          </div>
-          <div class="article-container">
-            <div class="image-container">
-              <img class="main-article-image" src="assets/img/icons/doc.jpeg" alt="imagem de documentos">
-              <div class="text-background">
-                <p class="text-overlay">Comece a escrever</p>
-              </div>
-              <span class="lupa-article">
-                <img src="assets/img/icons/lupa-article.svg" alt="">
-              </span>
-            </div>
-            <p class="texto2">Doc</p>
-            <span class="detalhe-aticle">Tamanho automático<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
-
-          </div>
-          <div class="article-container">
-            <div class="image-container">
-              <img class="main-article-image" src="assets/img/icons/curriculo.jpeg" alt="imagem de curriculo">
-              <div class="text-background">
-                <p class="text-overlay">Criar design em branco</p>
-              </div>
-              <span class="lupa-article">
-                <img src="assets/img/icons/lupa-article.svg" alt="">
-              </span>
-            </div>
-            <p class="texto2">Curriculo</p>
-            <span class="detalhe-aticle">21cm x 29,7 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
-
-          </div>
-          <div class="article-container">
-            <div class="image-container">
-              <img class="main-article-image" src="assets/img/icons/teste.gif" alt="gif de animação"></img>
-              <div class="text-background">
-                <p class="text-overlay">Criar design em branco</p>
-              </div>
-              <span class="lupa-article">
-                <img src="assets/img/icons/lupa-article.svg" alt="">
-              </span>
-            </div>
-            <p class="texto2">Vídeo</p>
-            <span class="detalhe-aticle">1920 px x 1080px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
-          </div>
-        </div>
-
-      </article>
-
-
-      <aside>
-        <div class="fundo-aside">
+      <div class="padding-aplicar">
+        <article>
           <div>
-            <img class="img-aside" src="assets/img/icons/line.webp" alt="">
-            <img class="img-aside" src="assets/img/icons/persons.webp" alt="">
+            <p class="texto1">Você pode experimentar...</p>
           </div>
-          <!-- <img src="assets/img/icons/blue-bottom.jpeg" alt=""> -->
-          <div class="alinha-topo">
-            <div class="alinha-aside">
-              <div class="alinha-header-aside">
-                <div class="aside-header">
-                  <h3>PRESENCIAL OU ONLINE</h3>
-                  <img class="create" src="assets/img/icons/canva-create.svg" alt="">
-                  <h3>23 DE MAIO DE 2024</h3>
+          <div id="list">
+
+            <div class="article-container">
+              <div class="image-container">
+                <img class="main-article-image" src="assets/img/icons/insta.jpeg" alt="imagem do instagram">
+                <div class="text-background">
+                  <p class="text-overlay">Criar design em branco</p>
+                </div>
+                <span class="lupa-article">
+                  <img src="assets/img/icons/lupa-article.svg" alt="">
+                </span>
+              </div>
+              <p class="texto2">Post para Instagram (Quadrado)</p>
+              <span class="detalhe-aticle">1080 px × 1080 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+            </div>
+            <div class="article-container">
+              <div class="image-container">
+                <img class="main-article-image" src="assets/img/icons/story.jpeg" alt="story do instagram">
+                <div class="text-background">
+                  <p class="text-overlay">Criar design em branco</p>
+                </div>
+                <span class="lupa-article">
+                  <img src="assets/img/icons/lupa-article.svg" alt="">
+                </span>
+              </div>
+              <p class="texto2">Story</p>
+              <span class="detalhe-aticle">1080 px × 1920 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+            </div>
+            <div class="article-container">
+              <div class="image-container">
+                <img class="main-article-image" src="assets/img/icons/logo.jpeg" alt="imagem de logomarca">
+                <div class="text-background">
+                  <p class="text-overlay">Criar design em branco</p>
+                </div>
+                <span class="lupa-article">
+                  <img src="assets/img/icons/lupa-article.svg" alt="">
+                </span>
+              </div>
+              <p class="texto2">Logo</p>
+              <span class="detalhe-aticle">500 px × 500 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+            </div>
+            <div class="article-container">
+              <div class="image-container">
+                <img class="main-article-image" src="assets/img/icons/apresentasao.jpeg" alt="imagem de apresentações">
+                <div class="text-background">
+                  <p class="text-overlay">Criar design em branco</p>
+                </div>
+                <span class="lupa-article">
+                  <img src="assets/img/icons/lupa-article.svg" alt="">
+                </span>
+              </div>
+              <p class="texto2">Apresentação(16:9)</p>
+              <span class="detalhe-aticle">1920 px × 1080 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+
+            </div>
+            <div class="article-container">
+              <div class="image-container">
+                <img class="main-article-image" src="assets/img/icons/doc.jpeg" alt="imagem de documentos">
+                <div class="text-background">
+                  <p class="text-overlay">Comece a escrever</p>
+                </div>
+                <span class="lupa-article">
+                  <img src="assets/img/icons/lupa-article.svg" alt="">
+                </span>
+              </div>
+              <p class="texto2">Doc</p>
+              <span class="detalhe-aticle">Tamanho automático<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+
+            </div>
+            <div class="article-container">
+              <div class="image-container">
+                <img class="main-article-image" src="assets/img/icons/curriculo.jpeg" alt="imagem de curriculo">
+                <div class="text-background">
+                  <p class="text-overlay">Criar design em branco</p>
+                </div>
+                <span class="lupa-article">
+                  <img src="assets/img/icons/lupa-article.svg" alt="">
+                </span>
+              </div>
+              <p class="texto2">Curriculo</p>
+              <span class="detalhe-aticle">21cm x 29,7 px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+
+            </div>
+            <div class="article-container">
+              <div class="image-container ">
+                <img class="main-article-image" src="assets/img/icons/teste.gif" alt="gif de animação"></img>
+                <div class="text-background">
+                  <p class="text-overlay">Criar design em branco</p>
+                </div>
+                <span class="lupa-article">
+                  <img src="assets/img/icons/lupa-article.svg" alt="">
+                </span>
+              </div>
+              <p class="texto2">Vídeo</p>
+              <span class="detalhe-aticle">1920 px x 1080px<img src="assets/img/icons/saiba-mais.svg" alt=""></span>
+            </div>
+          </div>
+
+        </article>
+
+
+        <aside>
+          <div class="fundo-aside">
+            <div class="espaço-img">
+              <img class="img-aside" src="assets/img/icons/line.webp" alt="">
+              <img class="img-aside" src="assets/img/icons/persons.webp" alt="">
+            </div>
+            <!-- <img src="assets/img/icons/blue-bottom.jpeg" alt=""> -->
+            <div class="alinha-topo">
+              <div class="alinha-aside">
+                <div class="alinha-header-aside">
+                  <div class="aside-header">
+                    <h3>PRESENCIAL OU ONLINE</h3>
+                    <img class="create" src="assets/img/icons/canva-create.svg" alt="">
+                    <h3>23 DE MAIO DE 2024</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="centro-aside">
+                <div class="tamanho-aside">
+                  <h1 class="h1">Faça parte do nosso <br> maior evento de <br> todos os tempos</h1>
+                  <div class="alinha-button">
+                    <button class="button-aside button1">Saiba Mais</button>
+                    <button class="button-aside button2">Inscreva-se agora</button>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="centro-aside">
-              <div class="tamanho-aside">
-                <h1 class="h1">Faça parte do nosso <br> maior evento de <br> todos os tempos</h1>
-                <div class="alinha-button">
-                  <button class="button-aside button1">Saiba Mais</button>
-                  <button class="button-aside button2">Inscreva-se agora</button>
-                </div>
-              </div>
+            <div class="estilizar-woman">
+              <img class="image-woman" src="assets/img/icons/woman.webp" alt="">
             </div>
+          </div>
+        </aside>
+
+        <div class="footer">
+
+          <div class="header-footer">
+            <p class="design">Designs recentes</p>
+            <span>
+              <img class="pontinho" src="assets/img/icons/pontinho.svg" alt="">
+            </span>
           </div>
 
 
-          <img class="image-woman" src="assets/img/icons/woman.webp" alt="">
+          <div>
+            <div>
+              <div class="img-final">
+                <img src="assets/img/icons/imagem-final.webp" alt="">
+                <p>Os designs que você criar ou abrir serão exibidos aqui.</p>
+              </div>
+
+
+            </div>
+
+            <div class="buttom-fixed">
+              <img src="assets/img/icons/buttom-fixed.svg" alt="qualquer coisa">
+            </div>
+
+          </div>
         </div>
-      </aside>
 
 
-      <div>
-        <p>Designs recentes</p>
-        <span>
-          <img src="" alt="">
-        </span>
-      </div>
 
-      <div>
-        <img src="assets/img/icons/imagem-final.webp" alt="">
-        <p>Os designs que você criar ou abrir serão exibidos aqui.</p>
-      </div>
-
-      <div>
-        <img src="assets/img/icons/tres-pontos.svg" alt="qualquer coisa">
       </div>
 
     </div>
-
-
-
-
-
-  </div>
 
 
 </body>

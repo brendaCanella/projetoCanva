@@ -1,0 +1,61 @@
+.pontinho {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.header-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.design {
+  font-size: 18px;
+  font-weight: bold;
+  /* border: 1px solid red; */
+}
+
+
+.img-final {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 159.7rem; */
+  height: 45rem;
+  padding: 64px 0;
+}
+
+.img-final img {
+  width: 30rem;
+  height: 30rem;
+}
+
+.img-final p {
+  font-size: 14px;
+
+}
+
+
+.buttom-fixed img {
+  width: 2.4rem;
+}
+
+.buttom-fixed {
+  display: flex;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 0;
+  background-color: #8d3bff;
+  border-radius: 50%;
+}
+
+
+@media(max-width: 665px){
+  .h1{
+    font-size: 20px;
+  }
+}

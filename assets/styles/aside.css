@@ -1,7 +1,10 @@
 aside {
-  width: 1597px;
-  height: 208px;
-  border: 1px solid red;
+  /* width: 159.7rem;
+  height: 20.8rem; */
+  /* width: 83.17vw; */
+  /* height: 10.83vw; */
+  margin-top: 3.2rem;
+  /* border: 1px solid red; */
   font-family: Canva Sans, sans-serif;
   background-color: #0DB4CF;
 
@@ -10,48 +13,66 @@ aside {
 
 
 .img-aside {
-  width: 88px;
-  height: 201px;
-  border-radius: 2px;
+  width: 9rem;
+  height: 20.3rem;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 0;
+  /* padding-top: 8px; */
 }
 
 .create {
-  width: 90px;
-  height: 14px;
+  width: 9rem;
+  height: 1.4rem;
 
 }
 
 .image-woman {
-  width: 204px;
-  height: 201px;
+  width: 20.4rem;
+  height: 20.1rem;
+  /* padding-top: 8px; */
+  /* margin-left: 85px; */
+  border-radius: 10px 10px 0px 0px;
+
 }
+
+.estilizar-woman {
+  display: flex;
+  align-items: flex-end;
+}
+
+
 
 .fundo-aside {
   display: flex;
-  justify-content: space-between;
-  width: 1597px;
-  height: 208px;
+  /* gap: 4.2rem; */
+  /* width: 159.7rem; */
+  height: 20.8rem;
   /* align-items: center; */
+  justify-content: space-between;
 
 }
 
 .button-aside {
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
+  font-family: Canva Sans, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
 
 }
 
 .alinha-header-aside {
   display: flex;
-  /* justify-content: space-between; */
-  width: 58vw;
+  justify-content: space-between;
+  /* width: 58vw; */
   /* border: 1px solid orangered; */
 }
 
 .alinha-aside {
   display: flex;
   flex-direction: column;
-  border: 1px solid black
+  /* border: 1px solid black */
 }
 
 .aside-header {
@@ -60,21 +81,32 @@ aside {
   /* height: 25%; */
   justify-content: space-between;
   /* border: 1px solid red; */
+  margin-top: 10px;
+}
+
+
+
+.aside-header h3 {
+  margin-left: 3rem;
+  color: white;
 }
 
 .alinha-topo {
   height: 100%;
+  width: 100%;
 }
 
 .tamanho-aside {
-  height: 182px;
+  height: 18.2rem;
 }
 
 .h1 {
+  font-family: Canva Sans, sans-serif;
   display: flex;
   justify-content: center;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 500;
+  color: white;
 }
 
 .alinha-button {
@@ -84,11 +116,36 @@ aside {
 }
 
 .button-aside {
-  
-  width: 120px;
-  height: 40px;
+
+  width: 12rem;
+  height: 4rem;
 }
 
-.button1{
+
+
+button.button-aside.button1 {
   margin-bottom: 5px;
+  background-color: #f6f7f8;
+
+}
+
+button.button-aside.button2 {
+  width: 13.5rem;
+  background-color: #cdfc40;
+
+}
+
+.espaço-img {
+  display: flex;
+  justify-content: space-between;
+  width: 19rem;
+  align-items: flex-end;
+}
+
+
+@media (max-width:1200px) {
+
+  .espaço-img {
+    display: none;
+  }
 }
